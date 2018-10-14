@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cmn-Hans">
   <head>
     <meta charset="UTF-8">
-    <title>犬の窝</title>
+    <title>窝</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta name="keywords" content="Moedog,狗子,主页">
-    <meta name="description" content="狗子的个人主页">
-    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/statics/css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/statics/js/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/statics/js/aplayer.min.js"></script>
+    <meta name="keywords" content="主页">
+    <meta name="description" content="个人主页">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/statics/css/main.css">
+    <link rel="stylesheet" href="/statics/css/font-awesome.min.css">
+    <script src="/statics/js/jquery.min.js"></script>
+    <script src="/statics/js/aplayer.min.js"></script>
   </head>
   <body>
     <div class="loading">
@@ -26,15 +26,18 @@
             <div class="rect5"></div>
         </div>
     </div>
+<!--
     <script>
         var picnum = parseInt(Math.random()*16+1);
-        document.write('<div class="bak" style="background-image: url(https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/statics/img/'+picnum+'.jpg);"></div>');
+        document.write('<div class="bak" style="background-image: url(/statics/img/'+picnum+'.jpg);"></div>');
     </script>
+-->
+    <div class="bak" style="background-image: url(//agint.me/PictureApi/pic.php);"></div>
     <main>
         <div class="content">
             <div class="left">
                 <div class="avatar">
-                    <img src="https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/statics/img/head.png">
+                    <img src="/statics/img/head.png">
                 </div>
                 <ul class="menu">
                     <li>
@@ -61,27 +64,27 @@
                 <section id="home" class="active">
                     <h1>小白-白</h1>
                     <div class="items">
-                        <a href="https://www.fczbl.vip" rel="noopener">
+                        <a href="/" rel="noopener">
                             <i class="fa fa-home"></i>
                             <span>Blog</span>
                         </a>
-                        <a href="https://github.com/xb2016" target="_blank" rel="noopener">
+                        <a href="https://github.com/" target="_blank" rel="noopener">
                             <i class="fa fa-github"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="mailto:xb@fczbl.vip" target="_blank" rel="noopener">
+                        <a href="mailto:xb@95.me" target="_blank" rel="noopener">
                             <i class="fa fa-envelope"></i>
                             <span>E-Mail</span>
                         </a>
-                        <a href="https://twitter.com/fczbl" target="_blank" rel="noopener">
+                        <a href="https://twitter.com/" target="_blank" rel="noopener">
                             <i class="fa fa-twitter"></i>
                             <span>Twitter</span>
                         </a>
-                        <a href="https://www.facebook.com/fczbl" target="_blank" rel="noopener">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener">
                             <i class="fa fa-facebook-official"></i>
                             <span>Facebook</span>
                         </a>
-                        <a href="https://weibo.com/u/5537490652" target="_blank" rel="noopener">
+                        <a href="https://weibo.com/u/" target="_blank" rel="noopener">
                             <i class="fa fa-weibo"></i>
                             <span>Weibo</span>
                         </a>
@@ -96,16 +99,16 @@
                 <section id="about">
                     <h1>关于</h1>
                     <p>
-                        我，小白-白，是一只菜狗<br>
-                        学生狗 / 没啥特长 / 宅 / <del>变态</del>loli控 / 2.5次元 / 萌物( ? ? )<br>
-                        こいぬちゃん赛高 ! / 瞎折腾 / 搞事情 / <a href="https://www.fczbl.vip/about.html" target="_blank">More...</a>
+                        我，小白，是<br>
+                        学生狗 / 没啥特长 /  / / 萌物( ? ? )<br>
+                        こいぬちゃん赛高 ! / 瞎折腾 / 搞事情 / <a href="/about" target="_blank">More...</a>
                     </p>
                 </section>
                 <section id="donate">
                     <h1>求投食喵 !</h1>
                     <div class="donate-img-box">
-                        <a href="https://pay.fczbl.vip" target="_blank" rel="noopener">
-                            <img src="https://img.fczbl.vip/images/2018/05/17/poor.jpg" >
+                        <a href="https://pay.lenget.com" target="_blank" rel="noopener">
+                            <img src="/statics/img/pay.png" >
                         </a>
                     </div>
                 </section>
@@ -113,6 +116,7 @@
         </div>
         <footer>
             <p id="hitokoto">Loading...</p>
+            <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
             <div class="copyright-mobile">
                 Made with
                 <i class="fa fa-heart"></i> by
@@ -124,13 +128,13 @@
             <script>
                 $(function(){
                     $.ajax({
-                        url:"https://api.fczbl.vip/163/?type=playlist&id=2003373695",
+                        url:"https://api.fczbl.vip/163/?type=single&id=436514312",
                         success:function(e){
                             var a = new APlayer({
                                 element:document.getElementById("ap-f"),
-                                autoplay:false,
+                                autoplay:true,
                                 fixed:true,
-                                loop:"all",
+                                loop:"none",
                                 order:"list",
                                 listFolded:true,
                                 showlrc:3,
@@ -146,6 +150,6 @@
             </script>
         </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/gh/Moe-Dog/Moe-Dog.github.io@0.3/statics/js/main.js"></script>
+    <script src="/statics/js/main.js"></script>
   </body>
 </html>
